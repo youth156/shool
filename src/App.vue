@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     fetchImages() {
-      fetch('http://192.168.0.195:3001/api/good')
+a      fetch('https://star-fawn.vercel.app/api/good')
         .then(response => response.json())
         .then(data => {
           this.message = data.message;
