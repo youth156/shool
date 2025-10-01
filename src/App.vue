@@ -13,7 +13,7 @@ export default {
   }, 
   data() {
     return {
-      message: "null",
+      message: "",
       images: [],
       selectedImage: null
     };
