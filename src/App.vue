@@ -23,7 +23,7 @@ export default {
   },
   methods: {
     fetchImages() {
-a      fetch('https://star-fawn.vercel.app/api/good')
+      fetch('https://star-fawn.vercel.app/api/good')
         .then(response => response.json())
         .then(data => {
           this.message = data.message;
